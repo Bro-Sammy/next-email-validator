@@ -13,7 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ validator)
+  "default": () => (/* binding */ Validate)
 });
 
 ;// CONCATENATED MODULE: external "email-deep-validator"
@@ -26,7 +26,7 @@ var external_is_biz_mail_default = /*#__PURE__*/__webpack_require__.n(external_i
 
 
 const emailValidator = new (external_email_deep_validator_default())();
-async function validator(req, res) {
+async function Validate(req, res) {
   if (req.method === 'POST') {
     try {
       const email = req.query.email;

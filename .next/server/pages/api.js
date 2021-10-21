@@ -10,9 +10,9 @@ exports.modules = {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ validator)
+/* harmony export */   "default": () => (/* binding */ Validator)
 /* harmony export */ });
-function validator(req, res) {
+function Validator(req, res) {
   res.json({
     Welcome: '*** Email Validation API 📬 ***',
     Usage: 'Send a POST request to the endpoint {/api/validate} with the email address as your query parameter',

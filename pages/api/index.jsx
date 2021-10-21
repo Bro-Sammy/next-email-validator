@@ -1,4 +1,4 @@
-export default function validator(req, res){
+export default function Validator(req, res){
 
     res.json({
         Welcome: '*** Email Validation API 📬 ***',

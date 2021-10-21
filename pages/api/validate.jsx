@@ -2,7 +2,7 @@ import EmailValidator from 'email-deep-validator'
 import isBizMail from 'is-biz-mail'
 const emailValidator = new EmailValidator();
 
-export default async function validator(req, res) {
+export default async function Validate(req, res) {
     if (req.method === 'POST') {
         try {
 
