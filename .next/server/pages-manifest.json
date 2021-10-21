@@ -1,6 +1,8 @@
 {
+  "/api": "pages/api.js",
+  "/api/validate": "pages/api/validate.js",
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/api/validate": "pages/api/validate.js"
+  "/404": "pages/404.html"
 }
