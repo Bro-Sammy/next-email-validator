@@ -1,0 +1,16 @@
+{
+  "name": "next-email-validator",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "email-deep-validator": "^3.3.0",
+    "is-biz-mail": "^0.3.3"
+  }
+}

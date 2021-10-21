@@ -1,0 +1,1 @@
+# This a simple api for validating emails that your application users enter to verify if they are working before you give them access to your application
